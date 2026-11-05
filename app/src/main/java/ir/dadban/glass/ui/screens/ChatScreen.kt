@@ -507,7 +507,7 @@ private fun EmptyChatWelcome(onPrompt: (String) -> Unit, onAttachImage: () -> Un
                     .padding(horizontal = 14.dp, vertical = 10.dp),
                 verticalAlignment = Alignment.CenterVertically
             ) {
-                Icon(Icons.Default.Sparkles, null, tint = Teal, modifier = Modifier.size(15.dp))
+                Icon(Icons.Default.AutoAwesome, null, tint = Teal, modifier = Modifier.size(15.dp))
                 Spacer(Modifier.width(8.dp))
                 Text(prompt, fontSize = 12.sp, color = Ink)
             }
